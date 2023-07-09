@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class Screen extends StatelessWidget {
   const Screen({Key? key}) : super(key: key);
 
@@ -11,7 +12,12 @@ class Screen extends StatelessWidget {
             height: 400,
             width: 400,
             color: Colors.amber,
-          )
+          ),
+           Container(
+            height: 400,
+            width: 400,
+            color: Colors.red,
+          ),
         ],
       ),
     );
